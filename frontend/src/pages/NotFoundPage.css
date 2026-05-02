@@ -1,0 +1,8 @@
+.not-found { display:flex; align-items:center; justify-content:center; min-height:70vh; text-align:center; padding:40px 20px; }
+.not-found-content { max-width: 480px; }
+.nf-icon { font-size:5rem; display:block; margin-bottom:16px; animation: bounce 1.5s infinite; }
+@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+.not-found h1 { font-size:7rem; font-weight:800; color:var(--primary); line-height:1; font-family:var(--font-display); }
+.not-found h2 { font-size:1.6rem; color:var(--gray-800); margin-bottom:12px; }
+.not-found p { color:var(--gray-600); margin-bottom:32px; }
+.nf-actions { display:flex; gap:14px; justify-content:center; }

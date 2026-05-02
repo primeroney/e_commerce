@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd frontend && npx react-scripts start",
+    "build": "cd frontend && react-scripts build",
+    "server": "cd backend && node server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  }
+}
